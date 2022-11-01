@@ -20,7 +20,7 @@ square.addEventListener("mouseover",function(e){
 resetButton.addEventListener("click", function(){
     colorInput.value="#000000";
     grid.innerHTML=""
-    
+    r.style.setProperty('--color','#000000');
     createGrid();
 })
 colorInput.addEventListener("input", (e)=>{
